@@ -1,0 +1,2 @@
+language = "nix"
+run = "mvn package docker:build docker:start docker:watch -Ddocker.watchMode=run"
